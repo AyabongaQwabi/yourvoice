@@ -1,0 +1,252 @@
+body{
+	background:url('../images/redpat.png') center center no-repeat;
+	background-size: cover;
+}
+
+.navbar-nav>li>a{
+	width:8em;
+	background: black;
+	padding-top: 35%;
+	text-shadow:2px 2px black;
+	
+	color:white;
+	
+}
+.navbar-nav>li{
+	border-top:10px solid red;
+	left:6%;
+	
+}
+.navbar-nav>li:hover{
+	border-top:10px solid white;
+
+	
+}
+.navbar{
+
+	background: black;
+	border-bottom:5px solid black;
+	padding-top: 0.25%;
+}
+
+.navbar-brand{
+	width:18em;
+	height:5em;
+
+}
+
+.navbar-default .navbar-nav>.active>a{
+	border:2px solid red;
+	background: white;
+	color:black;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color:white;
+	font-size: 15px;
+	font-weight: 900;
+	font-family: 'PT Sans Caption', sans-serif;
+	
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color:white;
+	border-top:5px solid white;
+	box-shadow:1px 1px 80px 2px red;
+	background: white;
+}
+
+#maincont{
+	margin-top:-1.55%; 
+}
+#mainrow{
+	border:2px solid black;
+}
+#slideleft{
+	background:rgba(255,0,0,0.5);
+	height:80%;
+	overflow:hidden;
+}
+#slideleft img{
+	max-height: 220%;
+	max-width: 420%;
+	margin-left:-150%;
+	margin-top: 100%;
+	opacity: .8;
+}
+#slideright{
+	background:rgba(255,0,0,0.5);
+	height:80%;
+	overflow:hidden;
+}
+#slideright img{
+	max-height: 220%;
+	max-width: 420%;
+	margin-left:-150%;
+	margin-top: 100%;
+	opacity: .8;
+}
+#vid{
+	width:58%;
+	background: black;
+	height:80%;
+
+}
+#vidoverlay{
+	margin-left: -2%;
+	margin-top: -52.5%;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.5);
+	position: absolute;
+}
+#vidoverlay img{
+	max-height: 40%;
+	max-width: 40%;
+	margin-left:40%;
+	margin-top: 15%;
+	opacity: .8;
+}
+#vidoverlay img:hover{
+	
+	opacity: 1;
+}
+#likes{
+	background:black;
+	height: 20%;
+	width: 100%;
+	font-size: 3vw;
+}
+#likes img{
+	max-width:100%;
+	max-height:100%;
+
+}
+#bigup{
+	
+	background:black;
+	width:25%;
+	height:50%;
+	display: inline-block;
+	float:right;
+	margin-left:5%;
+	box-shadow:1px 1px 20px 1px red;
+}
+#boo{
+
+	height:50%;
+	background:black;
+	width:25%;
+	float:right;
+	display: inline-block;
+
+	box-shadow:1px 1px 20px 1px red;
+}
+
+#otherfeatures{
+	width:25.3%;
+	background:rgba(255,0,0,0.5);
+	height:80%;
+	overflow:scroll;
+
+}
+h1{
+		color:white;
+	font-size: 3vw;
+	font-weight: 900;
+	font-family: 'PT Sans Caption', sans-serif;
+}
+h4{
+	color:white;
+	font-size: 2vw;
+	font-weight: 900;
+	font-family: 'PT Sans Caption', sans-serif;
+}
+#Text{
+		
+	width:50%;
+	margin-left: 8.5%;
+	background:rgba(0,0,0,0.9);
+	color:white;
+	padding-left:5%;
+	padding-right:5%;
+	box-shadow: 1px 1px 10px 5px black;
+}
+
+#advert{
+	margin-top:0%;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	height:50%;
+	border-top:30px solid black;
+	background:red;
+	color:black;
+	box-shadow: 1px 1px 10px 1px black;
+
+	
+}
+#next_advert{
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	height:50%;
+	border-top:30px solid black;
+	margin-top:1%;
+	background:red;
+	color:black;
+	box-shadow: 1px 1px 10px 5px black;
+}
+#third_advert{
+    border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	height:30%;
+	border-top:30px solid black;
+	margin-top:1%;
+	background:red;
+	color:black;
+	box-shadow: 1px 1px 10px 5px black;
+	overflow:hidden;
+}
+
+.col-s-4{
+	height:20%;
+	width:100%;
+	color:black;
+	font-family: 'sans';
+	background: white;
+	border-radius: 10px;
+	border:1px solid black;
+	margin-bottom:5%;
+	padding:5%;
+	text-align: center;
+	box-shadow:1px 1px 10px 1px;
+
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 16px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+::-webkit-scrollbar-thumb:active {
+  background: black;
+}
+::-webkit-scrollbar-track {
+  background: red;
+  border: 0px none #ffffff;
+  border-radius: 100px;
+}
+::-webkit-scrollbar-track:hover {
+  background: red;
+}
+::-webkit-scrollbar-track:active {
+  background: red;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}

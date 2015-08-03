@@ -1,42 +1,126 @@
 <html>
   <head>
 
-    <title>{{ user.spazaname }}</title>
+    <title>Your Voice</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
   	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
   	<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
+<link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'>
   	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link rel='stylesheet' type='text/css' href='../static/main.css'>
+  	<link rel='stylesheet' type='text/css' href='../static/style/home.css'>
   	<link href='http://fonts.googleapis.com/css?family=Exo:100,400' rel='stylesheet' type='text/css'>
-  	<script src='static/main.js'></script>
-  	<script type='text/javascript' src='static/databaseActions.js'></script>
+  	<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
-  	 <div class="container" id='main'><div id='Options'></div><div id='popUpDiv'></div></div>
-  	 <div id='background'>
 
-  	  <div class='container'>
-
-  	  	<div id='sales'        class='circleDiv'>Sales</div>
-  	  	<div id='products'     class='circleDiv'>Products</div>
-  	  	<div id='profits'      class='circleDiv'>Profits</div>
-  	  	<div id='perfomance'   class='circleDiv'>Perfomance</div>
-  	  	<div id='achievements' class='circleDiv'>Achievements</div>
-  	  	<div id='purchases'    class='circleDiv'>Purchases</div>
-  	 
-      	<h3 id='mainHeading' class='superHeading'>{{ user.spazaname }}</h3>
-
-
-
-
-      </div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Featured <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Music</a></li>
+        <li><a href="#">Design</a></li>
+        
+  
+          <li>
+                <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <img class="navbar-brand" src="../static/images/logo.jpg">
+               </div>
+          </li>
+  
+        <li><a href="#">Dance</a></li>
+        <li><a href="#">Beats</a></li>
+        <li><a href="#">Poetry</a></li>
+        <li><a href="#">Hire</a></li>
+  
+     </ul>
      </div>
+
+  </div>
+</nav>
+
+<div id='maincont' class="container-fluid">
+<div id='mainrow' class="row">
+      <div id='slideleft' class="col-md-1">
+      <img src='./static/images/left.png'>
+      </div>
+     
+      <div id='vid' class="col-md-8">
+           <iframe width="100%" height="80%" src="https://www.youtube.com/embed/Ux3o2W1DAOA" frameborder="0" allowfullscreen></iframe>
+
+       
+            
+        
+
+          <div id='vidoverlay' class="col-md-8">
+          <img src='./static/images/play3.png'>
+          </div>
+
+          <div id='likes' class="col-md-4">
+              <h4 id='bigup' class="label label-default"> BigUp &nbsp <img src='./static/images/bigup.png'></h4>
+              <h4 id='boo' class="label label-default"> Boo &nbsp <img src='./static/images/boo.png'></h4>
+            </div>
+
+       </div>
+
+      <div id='otherfeatures' class="col-md-4">
+          <h4>What you missed</h4>
+          <div class="col-s-4">Sample Content</div>
+          <div class="col-s-4">Sample Content</div>
+          <div class="col-s-4">Sample Content</div>
+          <div class="col-s-4">Sample Content</div>
+          <div class="col-s-4">Sample Content</div>
+      </div>
+  	  <div id='slideright' class="col-md-1">
+          <img src='./static/images/right.png'>
+      </div>
+</div>
+</div>
+
+
+  <div id='secondarycont' class="container-fluid">
+   <div id='secondaryrow' class="row">
+      <div id='Text' class="col-md-8">
+          <h1> Latest News </h1>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc lectus, faucibus ut urna a, tempor pellentesque odio. Curabitur consectetur erat ac mi imperdiet consequat. Donec pellentesque justo eget nisi convallis rhoncus. Nulla et dapibus nisi. Cras in suscipit felis, sit amet ultricies ligula. Donec tincidunt risus sit amet dolor pulvinar auctor. Vivamus venenatis diam ac arcu maximus vestibulum. Sed consectetur, risus sit amet vulputate semper, massa tellus dignissim massa, eu egestas nibh metus id justo. Duis posuere et leo non vulputate. Curabitur commodo ante ut velit feugiat, non varius quam laoreet. Nam sit amet diam lacinia, condimentum quam sit amet, pretium arcu. Nullam quis ipsum nunc. Integer rhoncus nibh non pellentesque commodo. Proin ipsum dui, egestas eget faucibus non, maximus ut sem.
+
+Praesent arcu diam, dapibus at nibh id, efficitur rhoncus magna. Praesent vitae elit non diam viverra faucibus. Pellentesque lobortis ut mi sed viverra. Donec eget enim sit amet nisi bibendum tincidunt ac vitae ligula. Nulla feugiat, ligula quis ullamcorper fermentum, orci neque pellentesque turpis, eu aliquam turpis ligula id odio. Mauris non erat bibendum, mollis nisl a, auctor lectus. Sed elit nibh, pulvinar euismod eleifend nec, tristique ut massa.
+
+Suspendisse justo augue, tincidunt vel porttitor sit amet, accumsan id mi. Phasellus blandit tempus lacus, id sollicitudin velit dictum et. Donec et nisl a justo lacinia rutrum finibus a nisl. Quisque quis mattis lacus. Suspendisse malesuada, dui eu ultricies dapibus, justo odio mollis urna, ut lobortis nulla nibh tincidunt nisi. Cras tristique congue nunc id iaculis. Interdum et malesuada fames ac ante ipsum primis in faucibus. In ultricies mauris mollis lectus lacinia, in tempus dui pellentesque. Proin eu convallis augue. Nam at feugiat mauris. Aliquam imperdiet euismod urna nec pharetra. In quis dapibus felis. Morbi mauris velit, blandit vitae sem sit amet, facilisis mattis nunc.
+
+Cras sagittis dui eu tellus commodo porttitor. Praesent tristique purus at ex varius aliquam. Aliquam cursus pellentesque venenatis. Etiam euismod lacus sed ex consectetur facilisis. Sed euismod non lectus vel consectetur. Cras sed diam in arcu blandit condimentum vel et nisl. Cras pharetra ante diam, et ornare turpis congue a. Cras mattis ex ex, eu dictum lectus cursus eu. Vestibulum scelerisque varius elit, nec tempus ligula euismod at. Mauris bibendum sed tortor sit amet egestas. Fusce nec sodales nisl. Donec ornare felis quis suscipit pulvinar. Praesent sit amet ultricies tellus. Nullam scelerisque magna felis, in cursus nulla ultrices vitae.
+
+Proin ullamcorper hendrerit finibus. Maecenas ac sollicitudin ante. Nullam sollicitudin ipsum eget euismod maximus. Donec lobortis tortor at eros cursus rhoncus. Fusce ut felis non nisi mollis venenatis nec finibus lacus. Curabitur ipsum augue, faucibus non venenatis ut, eleifend sit amet sem. Duis eget enim ante. Aenean libero erat, pharetra a feugiat in, fringilla malesuada dui. Suspendisse cursus sollicitudin placerat. Maecenas vitae vehicula nulla, eget mattis libero. Praesent pretium velit vitae vestibulum rutrum. Duis turpis ex, venenatis eget arcu a, gravida sagittis risus. Vivamus tincidunt et tortor pulvinar euismod. Sed pulvinar tellus magna. Curabitur dapibus venenatis ipsum non faucibus. Donec ullamcorper euismod ante, ac ornare felis aliquam ut.
+
+</p>
+      </div>
+      <div id='advert' class="col-md-4">
+         <h1> Releases this week</h1>
+        <p> ullamcorper hendrerit finibus. Maecenas ac sollicitudin ante. Nullam sollicitudin ipsum eget euismod maximus. Donec lobortis tortor at eros cursus rhoncus. Fusce ut felis non nisi mollis venenatis nec finibus lacus. Curabitur ipsum augue, faucibus non venenatis ut, eleifend sit amet sem. Duis eget enim ante. Aenean libero erat, pharetra a feugiat in, fringilla malesuada dui. Suspendisse cursus sollicitudin placerat. Maecenas vitae vehicula nulla, eget mattis libero. Praesent pretium velit vitae vestibulum ru</p>
+      </div>
+
+      <div id='next_advert' class="col-md-4">
+         <h1> Recent Updates</h1>
+        <p> ullamcorper hendrerit finibus. Maecenas ac sollicitudin ante. Nullam sollicitudin ipsum eget euismod maximus. Donec lobortis tortor at eros cursus rhoncus. Fusce ut felis non nisi mollis venenatis nec finibus lacus. Curabitur ipsum augue, faucibus non venenatis ut, eleifend sit amet sem. Duis eget enim ante. Aenean libero erat, pharetra a feugiat in, fringilla malesuada dui. Suspendisse cursus sollicitudin placerat. Maecenas vitae vehicula nulla, eget mattis libero. Praesent pretium velit vitae vestibulum ru</p>
+      </div>
+
+      <div id='third_advert' class="col-md-4">
+         <h1> last one here?</h1>
+        <p> ullamcorper hendrerit finibus. Maecenas ac sollicitudin ante. Nullam sollicitudin ipsum eget euismod maximus. Donec lobortis tortor at eros cursus rhoncus. Fusce ut felis non nisi mollis venenatis nec finibus lacus. Curabitur ipsum augue, faucibus non venenatis ut, eleifend sit amet sem. Duis eget enim ante. Aenean libero erat, pharetra a feugiat in, fringilla malesuada dui. Suspendisse cursus sollicitudin placerat. Maecenas vitae vehicula nulla, eget mattis libero. Praesent pretium velit vitae vestibulum ru</p>
+      </div>
+
+  </div>
+  </div>
   </body>
   
-  <script type='text/javascript' src='static/actions.js'></script>  
-  <script type='text/javascript' src='static/templating.js'></script>
+  
   
 </html>
